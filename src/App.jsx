@@ -1,9 +1,11 @@
+import ManagerView from './pages/ManagerView.jsx'
+
 function App() {
   return (
-    <div>
-      <h1>ConstructFlow</h1>
-    </div>
-  )
+    <>
+      <ManagerView />
+    </>
+  );
 }
 
-export default App
+export default App;
